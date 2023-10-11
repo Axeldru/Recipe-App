@@ -1,0 +1,77 @@
+/* header.css */
+
+header {
+	background: url('../images/header.jpg');
+	min-height: 650px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    /* background-color: black; */
+    color: #0fe18b; 
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+    align-items: center;
+	height: 100vh;
+}
+
+
+.logo-and-name {
+    display: flex;
+    align-items: center;
+	width: 100%; 
+    justify-content: flex-start; 
+	margin-left: 40px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.981);
+}
+
+.logo img {
+    max-width: 200px; 
+}
+
+.name {
+    font-size: 32px; 
+    margin-left: 10px; 
+	color: #0fe18b;
+}
+
+.text h2 {
+	font-size: 34px;
+	margin-bottom: 40px;
+}
+
+.text p {
+	font-size: 24px;	
+}
+
+
+.text h2, .text p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.981);
+}
+
+nav {
+    background-color: #0fe18b; 
+	font-weight: 700;
+    padding: 10px; 
+	width: 100%; 
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
