@@ -8,19 +8,19 @@ body {
 
 main {
     text-align: center;
-    padding: 1.25rem; /* Changed 20px to 1.25rem */
+    padding: 1.25rem; 
 }
 
 .centered {
-    max-width: 50rem; /* Changed 800px to 50rem */
+    max-width: 50rem; 
     margin: 0 auto;
 }
 
 h2 {
-    font-size: 1.5rem; /* Changed 24px to 1.5rem */
-    margin-bottom: 0.625rem; /* Changed 10px to 0.625rem */
+    font-size: 1.5rem; 
+    margin-bottom: 0.625rem; 
 }
 
 p {
-    font-size: 1rem; /* Changed 16px to 1rem */
+    font-size: 1rem; 
 }
