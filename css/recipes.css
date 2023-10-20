@@ -1,0 +1,36 @@
+.recipe-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	justify-content: center;
+	padding: 20px;
+}
+
+.recipe {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.recipe img {
+	max-width: 100%;
+	height: auto;
+}
+
+.recipe h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0.625rem;
+}
+
+.recipe p {
+	font-size: 1rem;
+}
+
+/* Add this rule to align content at the top */
+.recipe h3, .recipe img {
+	align-self: flex-start;
+}
