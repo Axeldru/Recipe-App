@@ -1,7 +1,7 @@
 /* header.css */
 
 header {
-    background: url('../images/header.jpg');
+    background: url('../img/header.jpg');
     min-height: 40rem; 
     background-size: cover;
     background-position: center;
